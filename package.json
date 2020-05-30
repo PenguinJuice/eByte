@@ -2,7 +2,8 @@
   "name": "eByte",
   "version": "1.0.0",
   "description": "eByte Cloud",
-  "author": "j",
+  "author": "j <user@dev.null>",
+  "homepage": "https://github.com/PenguinJuice/eByte/",
   "main": "./main.js",
   "scripts": {
     "postinstall": "install-app-deps",
@@ -28,6 +29,7 @@
       ]
     },
     "linux": {
+      "icon": "build/icons/app.png",
       "target": [
         "AppImage",
         "deb"
@@ -39,7 +41,8 @@
     }
   },
   "dependencies": {
-    "build": "^0.1.4"
+    "build": "^0.1.4",
+    "electron-packager": "^14.2.1"
   },
   "devDependencies": {
     "electron": "^9.0.0",
