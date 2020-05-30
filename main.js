@@ -11,7 +11,7 @@ const mainWindow = new BrowserWindow({
     }
   })
   mainWindow.setMenuBarVisibility(false)
-  mainWindow.loadURL('https://ebyte.cloud/')
+  mainWindow.loadURL('https://ebyte.cloud/index.php')
 }
 
 app.whenReady().then(() => {
